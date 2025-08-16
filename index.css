@@ -20,6 +20,17 @@ body {
   color: var(--dark);
   line-height: 1.6;
 }
+/* 3d card */
+
+model-viewer {
+  width: 100%;
+  max-width: 100%;
+  height: 60vh;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background: white;
+}
 
 .container {
   max-width: 1200px;
@@ -535,5 +546,13 @@ footer {
     font-size: 16px;
   }
 }
+ model-viewer {
+    height: 50vh;
+  }
 
+@media (max-width: 480px) {
+  model-viewer {
+    height: 40vh;
+  }
+}
 
